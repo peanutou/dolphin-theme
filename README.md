@@ -4,6 +4,12 @@
 
 Starter theme for developing comprehensive theme on Open edX
 
+## How to compile a theme
+http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/compiling_theme.html
+
+## How to debug edxapp
+https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/49873839/Debugging+Edxapp
+
 ## How to use
 
 1. Change to `edxapp` user
