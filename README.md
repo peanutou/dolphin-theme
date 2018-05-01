@@ -26,13 +26,13 @@ https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/49873839/Debugging+Edxap
 
 4. Clone this repo
 
-		$ git clone https://github.com/dehamzah/starter-theme-openedx.git starter-theme
+		$ git clone https://github.com/peanutou/dolphin-theme.git dolphin-theme
 
 5. Make some changes in `lms.env.json` located in `/edx/app/edxapp/`. Then change some variables to this:
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
 		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/themes"],
-		DEFAULT_SITE_THEME: "starter-theme",
+		DEFAULT_SITE_THEME: "dolphin-theme",
 
 6. Back to ubuntu sudo users, and restart the edxapp to load new configuration.
 
@@ -41,7 +41,7 @@ https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/49873839/Debugging+Edxap
 
 7. Run the `update.sh` script. To apply the themes.
 
-		$ cd /edx/app/edxapp/themes/starter-theme/
+		$ cd /edx/app/edxapp/themes/dolphin-theme/
 		$ sh update.sh
 
 
